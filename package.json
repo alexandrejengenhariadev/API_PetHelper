@@ -1,11 +1,11 @@
 {
-  "name": "PetHellper_Angular",
+  "name": "pethelper",
   "version": "1.0.0",
   "private": true,
   "scripts": {
     "dev": "node ace serve --watch",
     "build": "node ace build --production",
-    "start": "ENV_SILENT=true node server.js",
+    "start": "node server.js",
     "lint": "eslint . --ext=.ts",
     "format": "prettier --write ."
   },
